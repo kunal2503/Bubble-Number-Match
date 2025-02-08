@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #F45B69;
+    /* background-color: rgb(74, 96, 96); */
+    /* background: url("lake-mountains.jpg"); */
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+}
+
+.screen{
+    border-radius: 1rem;
+    overflow: hidden;
+    height: 70%;
+    width: 80%;
+    background-color: #F6E8EA;
+    /* background-color: transparent; */
+    /* margin-bottom: 1rem; */
+}
+.top{
+    background-color: #22181C;
+    height: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 0.5rem;
+}
+.box{
+    color: black;
+    font-weight: 600;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 3rem;
+    height: 2rem;
+    width: 3rem;
+    background-color: #F6E8EA;
+    border-radius: 2px;
+}
+.top h2{
+    font-size: 1.3rem;
+    margin-left: 3rem;
+    font-weight: 700;
+}
+/*  */
+.bubble-boxes{
+    height: 84.1%;
+    background-color: #5A0001;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .bubble-boxes {
+        height: 84.1%;
+    }
+    .play {
+        height: 1.5rem;
+        width: 5rem;
+    }
+}
+.boxes{
+    color: white;
+    margin: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    border-radius: 1.5rem;
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: #F13030;
+}
+.boxes:hover{
+    cursor: pointer;
+    background-color: #e31a1ac5;
+}
+
+.play {
+    background:linear-gradient(#f4606d,#ef3636);
+    height: 2rem;
+    width: 6rem;
+    border-radius: 1rem;
+    border: 1px solid black;
+}
+.play:hover{
+    background: linear-gradient(rgb(215, 71, 71),rgb(121, 16, 16) );
+}
